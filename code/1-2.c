@@ -1,13 +1,7 @@
 #include <stdio.h>
 
-void print() {
-    printf("Welcome to Coumputer Programming 03 Lab!\n");
-
-}
-
-int square(int n) {
-    return n * n;
-}
+void print();
+int square();
 
 int main() {
     print();
@@ -17,4 +11,12 @@ int main() {
     printf("%d %d\n", num, result);
 
     return 0;
+}
+
+void print() {
+    printf("Welcome to Coumputer Programming 03 Lab!\n");
+}
+
+int square(int n) {
+    return n * n;
 }
