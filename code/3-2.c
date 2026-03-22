@@ -17,9 +17,9 @@ void test_scope() {
 int main() {
     
     test_scope();
-    printf("n");
+    printf("\n");
     test_scope();
-    printf("n");
+    printf("\n");
     test_scope();
     
     return 0;
